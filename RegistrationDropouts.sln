@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "RegistrationDropouts.TDS.Master", "RegistrationDropouts.TDS.Master\RegistrationDropouts.TDS.Master.scproj", "{633BA53C-C2C2-43CA-A70F-E41C43313FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationDropouts.Web", "RegistrationDropouts.Web\RegistrationDropouts.Web.csproj", "{1D0E0466-45C7-4483-8802-C2468209E00C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{633BA53C-C2C2-43CA-A70F-E41C43313FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633BA53C-C2C2-43CA-A70F-E41C43313FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633BA53C-C2C2-43CA-A70F-E41C43313FFA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{633BA53C-C2C2-43CA-A70F-E41C43313FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633BA53C-C2C2-43CA-A70F-E41C43313FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633BA53C-C2C2-43CA-A70F-E41C43313FFA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1D0E0466-45C7-4483-8802-C2468209E00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0E0466-45C7-4483-8802-C2468209E00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0E0466-45C7-4483-8802-C2468209E00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0E0466-45C7-4483-8802-C2468209E00C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
