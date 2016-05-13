@@ -2,9 +2,14 @@
 
 <h1>Enagement Plan Testing</h1>
 <section>
-    <h2>Step 1</h2>
+    <h2>Identify User & Enroll in Engagement Plan</h2>
     <label for="txtLabel">Email:</label>
     <asp:TextBox runat="server" ID="txtEmail"></asp:TextBox>
+    <asp:Button runat="server" id="btnIdentifyUser" OnClick="btnIdentifyUser_OnClick" Text="Identify User"/>
+    <asp:Label runat="server" id="lblIdentifyUser" Visible="False"></asp:Label>
+</section>
+<section>
+    <h2>Step 1</h2>
     <asp:Button runat="server" id="btnStep1" OnClick="btnStep1_OnClick" Text="Process Step 1"/>
     <asp:Label runat="server" id="lblResultStep1" Visible="False"></asp:Label>
 </section>
@@ -17,6 +22,11 @@
     <h2>Step 3</h2>
     <asp:Button runat="server" id="btnStep3" OnClick="btnStep3_OnClick" Text="Process Step 3"/>
     <asp:Label runat="server" id="lblResultStep3" Visible="False"></asp:Label>
+</section>
+<section>
+    <h2>Complete Registration</h2>
+    <asp:Button runat="server" id="btnCompletedRegistration" OnClick="btnCompletedRegistration_OnClick" Text="Complete Registration"/>
+    <asp:Label runat="server" id="lblCompleteRegistration" Visible="False"></asp:Label>
 </section>
 <section>
     <h2>Abandon Session</h2>

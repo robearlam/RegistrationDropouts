@@ -22,6 +22,24 @@ namespace RegistrationDropouts.Web.Layouts.Sublayouts {
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
+        /// btnIdentifyUser control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnIdentifyUser;
+        
+        /// <summary>
+        /// lblIdentifyUser control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblIdentifyUser;
+        
+        /// <summary>
         /// btnStep1 control.
         /// </summary>
         /// <remarks>
@@ -74,6 +92,24 @@ namespace RegistrationDropouts.Web.Layouts.Sublayouts {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblResultStep3;
+        
+        /// <summary>
+        /// btnCompletedRegistration control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCompletedRegistration;
+        
+        /// <summary>
+        /// lblCompleteRegistration control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCompleteRegistration;
         
         /// <summary>
         /// btnAbandonSession control.
