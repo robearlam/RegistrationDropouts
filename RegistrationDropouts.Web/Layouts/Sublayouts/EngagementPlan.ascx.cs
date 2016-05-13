@@ -54,6 +54,9 @@ namespace RegistrationDropouts.Web.Layouts.Sublayouts
 
             IdentifyUser();
             EnrollInEngagementPlan();
+
+            lblIdentifyUser.Text = "User Identified";
+            lblIdentifyUser.Visible = true;
         }
 
         protected void btnAbandonSession_OnClick(object sender, EventArgs e)

@@ -8,7 +8,15 @@ name: Step 1
 master: {00000000-0000-0000-0000-000000000000}
 template: {8CE2707A-3742-4A89-933B-065E5BE02BC9}
 templatekey: Engagement Plan State
+created: 20160513T014540:635987007409800000
 
+----field----
+field: {575A25C8-5C6F-4530-A48F-F38E23E9DBD5}
+name: Page Event Subscription
+key: page event subscription
+content-length: 38
+
+{A68B82FF-6CAF-419E-A81E-1681F8CBDFE8}
 ----field----
 field: {07CE07CB-078C-415E-8F92-96690BABD6C7}
 name: Time interval
@@ -33,7 +41,7 @@ content-length: 36
 ----version----
 language: en
 version: 1
-revision: 1c253e56-f002-46af-a343-effc353f7c39
+revision: 1ca4fd38-a5ad-4f75-9575-d13a9fc51d07
 
 ----field----
 field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
@@ -69,14 +77,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1c253e56-f002-46af-a343-effc353f7c39
+1ca4fd38-a5ad-4f75-9575-d13a9fc51d07
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160510T054625Z
+20160513T060629Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

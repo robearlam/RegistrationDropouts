@@ -1,13 +1,14 @@
 ----item----
 version: 1
-id: {9BADA052-CB0D-443A-A59B-4F298D2210B6}
+id: {1CF02A7D-D174-4F9B-8AD0-7ADE8048E7CA}
 database: master
-path: /sitecore/system/Marketing Control Panel/Engagement Plans/Register Drop Out/Final Step/Final Step completed
-parent: {C571E096-07CA-4A44-B457-13B79E569B99}
-name: Final Step completed
+path: /sitecore/system/Marketing Control Panel/Engagement Plans/Register Drop Out/Step 1/Step 1 Completed
+parent: {FFFEA46D-2783-478E-8C9E-8946A2423626}
+name: Step 1 Completed
 master: {00000000-0000-0000-0000-000000000000}
 template: {0A43A0FE-7E0E-49EF-95D4-E3DE34F4F175}
 templatekey: Engagement Plan Condition
+created: 20160513T014541:635987007410000000
 
 ----field----
 field: {E13DCD09-D9BB-43C9-8D7D-438C79D714CA}
@@ -20,12 +21,15 @@ content-length: 38
 field: {21F3482B-BB14-4555-BA5D-AF20D400D5B9}
 name: Rule
 key: rule
-content-length: 476
+content-length: 696
 
 <ruleset>
-  <rule uid="{A86EF351-4D2F-42BC-B3A2-B54834915E9E}">
+  <rule uid="{059F14AE-481F-4A5F-B5B5-729B7B6BA396}">
     <conditions>
-      <condition id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" uid="9FCFDFAB1CD2440A9BEEA5EB7796BCF2" GoalId="{4BCA6E4D-33BF-46E4-B611-427D2A679DA7}" NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}" NumberOfElapsedDays="0" NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}" NumberOfPastInteractions="0" />
+      <or uid="F15D00C561CB471C8393EA86921BDA20">
+        <condition id="{C1DA0D65-C9C7-4526-91BB-E0390A7D3833}" uid="CAF35BD4B2304CB5A22B2FDC8B8DBB51" GoalId="{A68B82FF-6CAF-419E-A81E-1681F8CBDFE8}" NumberOfElapsedDaysOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}" NumberOfElapsedDays="0" NumberOfPastInteractionsOperatorId="{814EF7D0-1639-44FD-AEEF-735B5AC14425}" NumberOfPastInteractions="0" />
+        <condition id="{4D290FF3-1587-4FEE-AB37-88768766A9D9}" uid="8F9D563F462947999CD9F46D002B2D6D" GoalId="{A68B82FF-6CAF-419E-A81E-1681F8CBDFE8}" />
+      </or>
     </conditions>
   </rule>
 </ruleset>
@@ -35,14 +39,14 @@ name: Next state
 key: next state
 content-length: 36
 
-a1f34b01-d4b0-4b10-9d0a-02e14ab225e8
+effa85fe-c847-4cb4-9cee-5a05644b2f19
 ----field----
 field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
 name: Designer ID
 key: designer id
 content-length: 36
 
-4a690d2a-4865-4067-bc5f-b761283c3558
+b0a5918c-14f2-4f12-9b5f-e8e1241d4f9c
 ----field----
 field: {7642ED71-348B-4B88-8634-CC7B28949472}
 name: Origin ID
@@ -60,29 +64,29 @@ content-length: 1
 ----version----
 language: en
 version: 1
-revision: 2216cec8-2b7d-4eaa-90d9-f8d499f02870
+revision: 0480fdcd-abc4-4703-8e00-78de284bc4ec
 
 ----field----
 field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
 name: Description
 key: description
-content-length: 59
+content-length: 21
 
-Has the final step of the registration form been completed?
+Was step 1 completed?
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 20
+content-length: 17
 
-Final Step completed
+Step 1 Completed?
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20160510T054413Z
+20160510T044731Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -96,14 +100,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2216cec8-2b7d-4eaa-90d9-f8d499f02870
+0480fdcd-abc4-4703-8e00-78de284bc4ec
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160510T054414Z
+20160513T060834Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
