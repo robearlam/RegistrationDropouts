@@ -40,7 +40,6 @@ namespace RegistrationDropouts.Web.Layouts.Sublayouts
         {
             lblCompleteRegistration.Text = RegisterGoal(fullyCompletedGoal) ? "User logged into step3" : "failed to register Step 3 goal";
             lblCompleteRegistration.Visible = true;
-
         }
 
         protected void btnIdentifyUser_OnClick(object sender, EventArgs e)

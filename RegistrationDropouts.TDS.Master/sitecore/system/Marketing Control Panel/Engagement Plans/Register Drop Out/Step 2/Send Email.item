@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {CC03CEC4-1ADA-4B59-BA54-088A2B8EF6B9}
+id: {E6902266-C2BC-4546-8B0B-479D180515FC}
 database: master
-path: /sitecore/system/Marketing Control Panel/Engagement Plans/Register Drop Out/Step 1/Send Email
-parent: {FFFEA46D-2783-478E-8C9E-8946A2423626}
+path: /sitecore/system/Marketing Control Panel/Engagement Plans/Register Drop Out/Step 2/Send Email
+parent: {5EC2C769-68CC-453F-B2B8-6218252A8E7A}
 name: Send Email
 master: {00000000-0000-0000-0000-000000000000}
 template: {0A43A0FE-7E0E-49EF-95D4-E3DE34F4F175}
 templatekey: Engagement Plan Condition
-created: 20160516T034901:635989673410870000
+created: 20160516T034901:635989673411700000
 
 ----field----
 field: {E13DCD09-D9BB-43C9-8D7D-438C79D714CA}
@@ -24,9 +24,9 @@ key: rule
 content-length: 228
 
 <ruleset>
-  <rule uid="{4445D760-DA5B-418F-9907-4FFF55B84050}">
+  <rule uid="{A09224B1-09CC-4D2E-BD88-9515B618EF11}">
     <conditions>
-      <condition id="{4888ABBB-F17D-4485-B14B-842413F88732}" uid="AEBCC0D833E04750855C755902A27652" />
+      <condition id="{4888ABBB-F17D-4485-B14B-842413F88732}" uid="191B029B22CB4C97933BEDFEF714B805" />
     </conditions>
   </rule>
 </ruleset>
@@ -36,14 +36,14 @@ name: Next state
 key: next state
 content-length: 36
 
-729dc481-c9f0-4753-9bda-56b12a8fb1ac
+3f847dfa-d014-4c55-978a-51294b7a8977
 ----field----
 field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
 name: Designer ID
 key: designer id
 content-length: 36
 
-4487e10a-3855-44db-a832-66a48ebcfaa8
+f7e6140b-aa9a-4be4-b3f1-793820191dc1
 ----field----
 field: {7642ED71-348B-4B88-8634-CC7B28949472}
 name: Origin ID
@@ -61,15 +61,8 @@ content-length: 1
 ----version----
 language: en
 version: 1
-revision: 6cddadea-62fe-4616-a1eb-c605c2073031
+revision: 2e11ffac-b0a4-4b76-9e67-b6a916f0f00b
 
-----field----
-field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
-name: Description
-key: description
-content-length: 10
-
-Send Email
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -83,7 +76,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160513T050935Z
+20160516T021322Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -97,14 +90,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6cddadea-62fe-4616-a1eb-c605c2073031
+2e11ffac-b0a4-4b76-9e67-b6a916f0f00b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160516T054937Z
+20160516T021755Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

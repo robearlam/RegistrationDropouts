@@ -1,49 +1,36 @@
 ----item----
 version: 1
-id: {CC03CEC4-1ADA-4B59-BA54-088A2B8EF6B9}
+id: {D3A6EB4B-3B0E-45C9-80BE-200A64BF087B}
 database: master
-path: /sitecore/system/Marketing Control Panel/Engagement Plans/Register Drop Out/Step 1/Send Email
-parent: {FFFEA46D-2783-478E-8C9E-8946A2423626}
-name: Send Email
+path: /sitecore/system/Marketing Control Panel/Engagement Plans/Register Drop Out/Final Step
+parent: {2619048E-1BF4-4825-95A0-A38A3280DD61}
+name: Final Step
 master: {00000000-0000-0000-0000-000000000000}
-template: {0A43A0FE-7E0E-49EF-95D4-E3DE34F4F175}
-templatekey: Engagement Plan Condition
-created: 20160516T034901:635989673410870000
+template: {8CE2707A-3742-4A89-933B-065E5BE02BC9}
+templatekey: Engagement Plan State
+created: 20160516T034900:635989673409300000
 
 ----field----
-field: {E13DCD09-D9BB-43C9-8D7D-438C79D714CA}
-name: Evaluate
-key: evaluate
+field: {575A25C8-5C6F-4530-A48F-F38E23E9DBD5}
+name: Page Event Subscription
+key: page event subscription
 content-length: 38
 
-{B81C1F4C-8B83-44D9-902F-448463DBCCBC}
+{4BCA6E4D-33BF-46E4-B611-427D2A679DA7}
 ----field----
-field: {21F3482B-BB14-4555-BA5D-AF20D400D5B9}
-name: Rule
-key: rule
-content-length: 228
+field: {07CE07CB-078C-415E-8F92-96690BABD6C7}
+name: Time interval
+key: time interval
+content-length: 1
 
-<ruleset>
-  <rule uid="{4445D760-DA5B-418F-9907-4FFF55B84050}">
-    <conditions>
-      <condition id="{4888ABBB-F17D-4485-B14B-842413F88732}" uid="AEBCC0D833E04750855C755902A27652" />
-    </conditions>
-  </rule>
-</ruleset>
-----field----
-field: {D2368879-C784-4031-9B79-6A3BF3CB444E}
-name: Next state
-key: next state
-content-length: 36
-
-729dc481-c9f0-4753-9bda-56b12a8fb1ac
+1
 ----field----
 field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
 name: Designer ID
 key: designer id
 content-length: 36
 
-4487e10a-3855-44db-a832-66a48ebcfaa8
+dda80082-d08d-4bd7-9e15-de5400d609e0
 ----field----
 field: {7642ED71-348B-4B88-8634-CC7B28949472}
 name: Origin ID
@@ -51,39 +38,32 @@ key: origin id
 content-length: 36
 
 00000000-0000-0000-0000-000000000000
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 1
-
-1
 ----version----
 language: en
 version: 1
-revision: 6cddadea-62fe-4616-a1eb-c605c2073031
+revision: 50ee4a5d-df3d-4747-90ac-08914dca2894
 
 ----field----
 field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
 name: Description
 key: description
-content-length: 10
+content-length: 23
 
-Send Email
+Final registration step
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
 content-length: 10
 
-Send Email
+Final Step
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20160513T050935Z
+20160516T021758Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -97,14 +77,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6cddadea-62fe-4616-a1eb-c605c2073031
+50ee4a5d-df3d-4747-90ac-08914dca2894
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160516T054937Z
+20160523T005833Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

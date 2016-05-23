@@ -1,36 +1,29 @@
 ----item----
 version: 1
-id: {5EC2C769-68CC-453F-B2B8-6218252A8E7A}
+id: {6A00974F-1901-49FE-9C3D-4D1FFCE22F67}
 database: master
-path: /sitecore/system/Marketing Control Panel/Engagement Plans/Register Drop Out/Step 2
+path: /sitecore/system/Marketing Control Panel/Engagement Plans/Register Drop Out/Final step email sent
 parent: {2619048E-1BF4-4825-95A0-A38A3280DD61}
-name: Step 2
+name: Final step email sent
 master: {00000000-0000-0000-0000-000000000000}
 template: {8CE2707A-3742-4A89-933B-065E5BE02BC9}
 templatekey: Engagement Plan State
-created: 20160516T034901:635989673411530000
+created: 20160516T034900:635989673408900000
 
-----field----
-field: {575A25C8-5C6F-4530-A48F-F38E23E9DBD5}
-name: Page Event Subscription
-key: page event subscription
-content-length: 38
-
-{3B352DCB-C4D8-4727-860D-DCC86CB38B3F}
 ----field----
 field: {07CE07CB-078C-415E-8F92-96690BABD6C7}
 name: Time interval
 key: time interval
 content-length: 1
 
-1
+0
 ----field----
 field: {3F72BC07-DE92-483E-A724-D430769D9BA4}
 name: Designer ID
 key: designer id
 content-length: 36
 
-effa85fe-c847-4cb4-9cee-5a05644b2f19
+f1f3965c-ac10-4b73-85f7-eee6a672f9fb
 ----field----
 field: {7642ED71-348B-4B88-8634-CC7B28949472}
 name: Origin ID
@@ -41,29 +34,29 @@ content-length: 36
 ----version----
 language: en
 version: 1
-revision: cf3ea7e3-fb33-4aaa-b104-eada0596b293
+revision: 219c716f-c4e2-4926-a1c7-1c1df7a85cd7
 
 ----field----
 field: {06F2D72A-1924-4B9A-BA1E-186CE4E57EFD}
 name: Description
 key: description
-content-length: 19
+content-length: 21
 
-Registration Step 2
+Final step email sent
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
 key: __display name
-content-length: 6
+content-length: 21
 
-Step 2
+Final step email sent
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20160513T040538Z
+20160516T022121Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -77,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cf3ea7e3-fb33-4aaa-b104-eada0596b293
+219c716f-c4e2-4926-a1c7-1c1df7a85cd7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160523T005833Z
+20160516T022121Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
